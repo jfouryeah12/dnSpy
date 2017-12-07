@@ -25,11 +25,6 @@ namespace dnSpy.Contracts.Debugger.DotNet.Mono {
 	/// </summary>
 	public sealed class MonoConnectStartDebuggingOptions : MonoConnectStartDebuggingOptionsBase {
 		/// <summary>
-		/// true if the process is suspended and waiting for the debugger to connect
-		/// </summary>
-		public bool ProcessIsSuspended { get; set; }
-
-		/// <summary>
 		/// Copies this instance to <paramref name="other"/> and returns it
 		/// </summary>
 		/// <param name="other">Destination</param>
@@ -38,7 +33,6 @@ namespace dnSpy.Contracts.Debugger.DotNet.Mono {
 			if (other == null)
 				throw new ArgumentNullException(nameof(other));
 			base.CopyTo(other);
-			other.ProcessIsSuspended = ProcessIsSuspended;
 			return other;
 		}
 
