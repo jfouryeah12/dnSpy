@@ -50,6 +50,11 @@ namespace dnSpy.Contracts.Decompiler {
 		TypeSig Type { get; }
 
 		/// <summary>
+		/// Gets the hoisted field or null if it's not a hoisted local/parameter
+		/// </summary>
+		FieldDef HoistedField { get; }
+
+		/// <summary>
 		/// true if this is a decompiler generated variable
 		/// </summary>
 		bool IsDecompilerGenerated { get; }
