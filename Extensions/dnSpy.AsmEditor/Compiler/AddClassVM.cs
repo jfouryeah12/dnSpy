@@ -18,19 +18,14 @@
 */
 
 using System.Threading.Tasks;
-using dnlib.DotNet;
-using dnSpy.AsmEditor.ViewHelpers;
-using dnSpy.Contracts.App;
 using dnSpy.Contracts.AsmEditor.Compiler;
-using dnSpy.Contracts.Decompiler;
 
 namespace dnSpy.AsmEditor.Compiler {
 	sealed class AddClassVM : EditCodeVM {
 		sealed class AddClassDecompileCodeState : DecompileCodeState {
 		}
 
-		public AddClassVM(RawModuleBytesProvider rawModuleBytesProvider, IOpenFromGAC openFromGAC, IOpenAssembly openAssembly, ILanguageCompiler languageCompiler, IDecompiler decompiler, ModuleDef module)
-			: base(rawModuleBytesProvider, openFromGAC, openAssembly, languageCompiler, decompiler, module, null) => StartDecompile();
+		public AddClassVM(EditCodeVMOptions options) : base(options, null) => StartDecompile();
 
 		protected override DecompileCodeState CreateDecompileCodeState() =>
 			new AddClassDecompileCodeState();
