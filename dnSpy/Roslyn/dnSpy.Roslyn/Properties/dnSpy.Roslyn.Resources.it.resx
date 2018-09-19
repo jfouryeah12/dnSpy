@@ -154,7 +154,7 @@
     <value>Costanti</value>
   </data>
   <data name="DebuggerExpressionHasNoValue" xml:space="preserve">
-    <value>L'espressione è stata valutata e non ha  prodotto alcun valore</value>
+    <value>L'espressione è stata valutata e non ha prodotto alcun valore</value>
   </data>
   <data name="DebuggerVarsWindow_CSharp_StaticMembers" xml:space="preserve">
     <value>Livelli statici</value>

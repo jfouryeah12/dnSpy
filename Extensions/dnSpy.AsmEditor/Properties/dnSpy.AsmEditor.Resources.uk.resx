@@ -990,7 +990,8 @@
     <value>Невідоме</value>
   </data>
   <data name="UnknownBytesMsg" xml:space="preserve">
-    <value>Some of the copied bytes are unknown because the method has been edited. New tokens and string offsets are only known once the file has been saved to disk and re-opened.</value>
+    <value>Деякі скопійовані байти є невідомі, оскільки метод був відредагований. Нові токени і зміщення 
+ стрічок стануть відомі після того, як файл збережеться на диск і знову буде відкрито.</value>
   </data>
   <data name="UnknownEnum" xml:space="preserve">
     <value>Невідомий Enum</value>
@@ -1026,16 +1027,16 @@
     <value>Збереження скасовується. Ви дійсно бажаєте закрити вікно?</value>
   </data>
   <data name="AskDeleteField" xml:space="preserve">
-    <value>There could be code in some assembly that references this field. Are you sure you want to delete the field?</value>
+    <value>Це поле може використовуватись у якійсь збірці. Ви переконані, що бажаєте його видалити?</value>
   </data>
   <data name="AskDeleteMethod" xml:space="preserve">
     <value>Цей метод може використовуватись у якійсь збірці. Ви переконані,, що бажаєте видалити метод?</value>
   </data>
   <data name="AskDeleteType" xml:space="preserve">
-    <value>There could be code in some assembly that references this type. Are you sure you want to delete the type?</value>
+    <value>Цей тип може використовуватись у якійсь збірці. Ви переконані,, що бажаєте видалити цей конкретний тип?</value>
   </data>
   <data name="AskExitUnsavedFile" xml:space="preserve">
-    <value>There is an unsaved file. Do you want to save it before exiting?</value>
+    <value>Є незбережений файл. Ви хочете зберегти зміни перед виходом?</value>
   </data>
   <data name="AskExitUnsavedFiles" xml:space="preserve">
     <value>Є {0} Незбережених файлів. Ви хочете зберегти ці зміни перед виходом?</value>
@@ -1044,7 +1045,7 @@
     <value>Ви переконані, що хочете завантажити нові збірки і втратити усі зміни?</value>
   </data>
   <data name="AskReloadAssembliesLoseChanges" xml:space="preserve">
-    <value>Are you sure you want to reload all assemblies and lose all changes?</value>
+    <value>Ви переконані, що хочете перевантажити усі збірки і втратити зміни?</value>
   </data>
   <data name="AskSaveFile" xml:space="preserve">
     <value>Файл не був збережений. Ви хочете зберегти його перед продовженням?</value>
@@ -1680,7 +1681,7 @@
     <value>Назва</value>
   </data>
   <data name="NodesUseHexEditorMsg" xml:space="preserve">
-    <value>All tree nodes below use the hex editor to modify the PE file</value>
+    <value>Всі нижчележачі вузли дерева використовують Hex-редактор для змін PE-файлу</value>
   </data>
   <data name="NopInstrCommand" xml:space="preserve">
     <value>_NOP-інструкція</value>
@@ -1698,7 +1699,7 @@
     <value>Оптимі_зувати усі інструкції</value>
   </data>
   <data name="Padding" xml:space="preserve">
-    <value>pad</value>
+    <value>доповнити</value>
   </data>
   <data name="PasteRecordsCommand" xml:space="preserve">
     <value>_Вставити {0} записів @ {1:X8}, RID {2}</value>
@@ -1731,7 +1732,7 @@
     <value>Зберегти {0} ресурсів в двійкових даних</value>
   </data>
   <data name="RawSaveResourcesSubDirectoriesCommand" xml:space="preserve">
-    <value>Raw Save {0} resources, use sub dirs</value>
+    <value>Зберегти {0} ресурсів, використовуючи під-директорії</value>
   </data>
   <data name="RedoCommand" xml:space="preserve">
     <value>Повторити</value>
@@ -1860,8 +1861,7 @@
     <value>_Зберегти старе значення MaxStack</value>
   </data>
   <data name="SaveModule_KeepOldMaxStack_ToolTip" xml:space="preserve">
-    <value>Use the MaxStack value from the method instead of calculating a new MaxStack value.
-Needed if the methods are still obfuscated</value>
+    <value>Використати значення MaxStack із методу замість обчислення нового значення MaxStack. Необхідно тоді, коли методи все ще обфусковані</value>
   </data>
   <data name="SaveModule_MetadataHeaderOptions" xml:space="preserve">
     <value>Опції заголовку метаданих</value>
@@ -1876,8 +1876,7 @@ Needed if the methods are still obfuscated</value>
     <value>Зберегти до_даткові дані підпису</value>
   </data>
   <data name="SaveModule_PreserveExtraSigData_ToolTip" xml:space="preserve">
-    <value>Preserve any extra data after the signatures.
-Some obfuscators put data there</value>
+    <value>Зберігати будь-які додаткові дані після підпису. Деякі обфускатори зберігають там дані</value>
   </data>
   <data name="SaveModule_PreserveHeapOffsets" xml:space="preserve">
     <value>Зберегти зміщення в кучі</value>
@@ -1892,8 +1891,7 @@ Some obfuscators put data there</value>
     <value>Спільні тіла методів</value>
   </data>
   <data name="SaveModule_ShareMethodBodies_ToolTip" xml:space="preserve">
-    <value>.NET methods that have the exact same code will share method bodies.
-The output file will be a little bit smaller</value>
+    <value>Методи .NET, які мають ідентичний код, будуть його розділяти між собою. Вихідний файл будет меньший по розміру</value>
   </data>
   <data name="SaveModule_Title" xml:space="preserve">
     <value>Зберегти модуль</value>
@@ -1902,8 +1900,7 @@ The output file will be a little bit smaller</value>
     <value>_Mixed-Mode Збірка</value>
   </data>
   <data name="SaveModule_UseMixedMode_ToolTip" xml:space="preserve">
-    <value>Should be checked if it's a mixed-mode module (eg. C++/.NET).
-Most options will be re-initialized when this checkbox is clicked</value>
+    <value>Встановіть прапорець у випадку mixed-mode модуля (наприклад. C+ + / .NET). Після установки прапорця більшість опцій буде повторно переініціалізовано</value>
   </data>
   <data name="SaveModule_WritePdb" xml:space="preserve">
     <value>Зберегти _PDB-файл</value>
@@ -1915,7 +1912,7 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>Зберегти {0} ресурсів</value>
   </data>
   <data name="SaveResourcesSubDirectoriesCommand" xml:space="preserve">
-    <value>Save {0} resources, use sub dirs</value>
+    <value>Зберегти {0} ресурсів, використовуючи під-директорії</value>
   </data>
   <data name="ShortCutKeyB" xml:space="preserve">
     <value>B</value>
@@ -2032,7 +2029,7 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>{0} байт</value>
   </data>
   <data name="AddAfterSelInstr_ToolTip" xml:space="preserve">
-    <value>Add the instruction after the selected instruction</value>
+    <value>Додати інструкцію після обраної</value>
   </data>
   <data name="InstructionsTab" xml:space="preserve">
     <value>Інструкції</value>
@@ -2206,7 +2203,7 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>В_ідслідковувати дебаг дані</value>
   </data>
   <data name="Module_Metadata_HeaderVersion" xml:space="preserve">
-    <value>_Header Version</value>
+    <value>Версія _заголовку</value>
   </data>
   <data name="Module_Metadata_VersionString" xml:space="preserve">
     <value>Стрічка _версії</value>
@@ -2236,7 +2233,7 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>_SpecialName</value>
   </data>
   <data name="SaveModule_Cor20_EntryPoint" xml:space="preserve">
-    <value>_Entry Point</value>
+    <value>_Точка входу</value>
   </data>
   <data name="SaveModule_Cor20_Flags_Bit32Preferred" xml:space="preserve">
     <value>32-Bit _Preferred</value>
@@ -2311,7 +2308,7 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>A_bstract</value>
   </data>
   <data name="Type_Flags_Accessibility" xml:space="preserve">
-    <value>Accessibilit_y</value>
+    <value>Доступніст_ь</value>
   </data>
   <data name="Type_Flags_BeforeFieldInit" xml:space="preserve">
     <value>BeforeFieldIni_t</value>
@@ -2326,7 +2323,7 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>_Import</value>
   </data>
   <data name="Type_Flags_Kind" xml:space="preserve">
-    <value>_Kind</value>
+    <value>_Тип</value>
   </data>
   <data name="Type_Flags_Layout" xml:space="preserve">
     <value>Layo_ut</value>
@@ -2338,7 +2335,7 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>Seale_d</value>
   </data>
   <data name="Type_Flags_Semantics" xml:space="preserve">
-    <value>_Semantics</value>
+    <value>_Семантика</value>
   </data>
   <data name="Type_Flags_Serializable" xml:space="preserve">
     <value>S_erializable</value>
@@ -2362,13 +2359,13 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>Властивість</value>
   </data>
   <data name="SaveModules_FixErrorsByEditingSettings" xml:space="preserve">
-    <value>-- Fix the errors by editing the options.</value>
+    <value>-- Виправити помилки, змінивши параметри.</value>
   </data>
   <data name="GoToMetaDataTableRow_RID" xml:space="preserve">
     <value>_RID</value>
   </data>
   <data name="Plugin_ShortDescription" xml:space="preserve">
-    <value>Assembly editor</value>
+    <value>Редактор збірки</value>
   </data>
   <data name="ShortCutKeyCtrlShiftE" xml:space="preserve">
     <value>Ctrl+Shift+E</value>
@@ -2410,43 +2407,43 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>Увага</value>
   </data>
   <data name="AddAssemblyReferenceToolTip" xml:space="preserve">
-    <value>Add Assembly Reference</value>
+    <value>Додати посилання збірки</value>
   </data>
   <data name="AddGacReferenceToolTip" xml:space="preserve">
-    <value>Add Assembly Reference (GAC)</value>
+    <value>Додати посилання збірки (GAC)</value>
   </data>
   <data name="Error_CouldNotAddAssemblyReferences" xml:space="preserve">
-    <value>Couldn't add the assembly references.</value>
+    <value>Не вдалося додати посилання на збірку.</value>
   </data>
   <data name="EditMethodCode" xml:space="preserve">
-    <value>Edit Method Code</value>
+    <value>Редагувати тіло методу</value>
   </data>
   <data name="ERR_IM_AddingRemovingStaticFromEditedMethodNotSupported" xml:space="preserve">
-    <value>Adding or removing 'static' or 'Shared' from edited methods isn't supported: {0}</value>
+    <value>Не підтримується додавання або видалення "static" або 'shared' для редагованих методів: {0}</value>
   </data>
   <data name="ERR_IM_CouldNotFindEditedMethod" xml:space="preserve">
-    <value>Couldn't find the edited method. Make sure you didn't add or remove 'static' or 'Shared' or changed the parameter types, return type or method name: {0}</value>
+    <value>Не можливо знайти відредагований метод. Переконайтесь, що ви не додали чи видалили 'static' чи 'Shared' або змінили типи параметрів, тип повернення або ім'я методу: {0}</value>
   </data>
   <data name="ERR_IM_CouldNotFindField" xml:space="preserve">
-    <value>Couldn't find field: {0}</value>
+    <value>Не вдалось знайти поле: {0}</value>
   </data>
   <data name="ERR_IM_CouldNotFindMethod" xml:space="preserve">
-    <value>Couldn't find method: {0}</value>
+    <value>Не вдалось знайти метод: {0}</value>
   </data>
   <data name="ERR_IM_CouldNotFindMethodType" xml:space="preserve">
-    <value>Couldn't find the edited method's type: {0}</value>
+    <value>Не можливо знайти тип редагованого методу: {0}</value>
   </data>
   <data name="ERR_IM_CouldNotFindType" xml:space="preserve">
-    <value>Couldn't find type: {0}</value>
+    <value>Не вдалось знайти тип: {0}</value>
   </data>
   <data name="ERR_IM_RenamingVirtualEventsIsNotSupported" xml:space="preserve">
-    <value>Renaming of virtual events isn't supported: {0}</value>
+    <value>Перейменування віртуальних подій не підтримується: {0}</value>
   </data>
   <data name="ERR_IM_RenamingVirtualMethodsIsNotSupported" xml:space="preserve">
-    <value>Renaming of virtual methods isn't supported: {0}</value>
+    <value>Перейменування віртуальних методів не підтримується: {0}</value>
   </data>
   <data name="ERR_IM_RenamingVirtualPropsIsNotSupported" xml:space="preserve">
-    <value>Renaming of virtual properties isn't supported: {0}</value>
+    <value>Перейменування віртуальних властивостей не підтримується: {0}</value>
   </data>
   <data name="FindCommand" xml:space="preserve">
     <value>Пошук</value>
@@ -2464,19 +2461,19 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>Скасувати</value>
   </data>
   <data name="EditAssemblyCode" xml:space="preserve">
-    <value>Edit Assembly Attributes</value>
+    <value>Змінити атрибути збірки</value>
   </data>
   <data name="EditCodeAddClass" xml:space="preserve">
     <value>Додати клас</value>
   </data>
   <data name="MergeWithAssemblyCommand" xml:space="preserve">
-    <value>Merge with Assembly...</value>
+    <value>Об'єднати зі збіркою...</value>
   </data>
   <data name="MergeWithAssemblyCommand2" xml:space="preserve">
-    <value>Merge with Assembly</value>
+    <value>Об'єднати зі збіркою</value>
   </data>
   <data name="EditAssemblyCode2" xml:space="preserve">
-    <value>Edit Assembly Attributes ({0})...</value>
+    <value>Змінити атрибути збірки ({0})...</value>
   </data>
   <data name="EditCodeAddClass2" xml:space="preserve">
     <value>Додати клас ({0})...</value>
@@ -2488,16 +2485,16 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>Змінити клас ({0})...</value>
   </data>
   <data name="ERR_IM_CouldNotFindEditedType" xml:space="preserve">
-    <value>Couldn't find the edited type: {0}</value>
+    <value>Не знайдено редагований текст: {0}</value>
   </data>
   <data name="CloseOldInMemoryModules" xml:space="preserve">
-    <value>Close Old In-Memory Modules</value>
+    <value>Закрити старі модулі в пам'яті</value>
   </data>
   <data name="CloseAllMissingFilesCommand" xml:space="preserve">
-    <value>Close All Missing Files</value>
+    <value>Закрити всі відсутні файли</value>
   </data>
   <data name="CompileDiagnostics_Header_Severity" xml:space="preserve">
-    <value>Severity</value>
+    <value>Значимість</value>
   </data>
   <data name="ParamDef_Flags_Lcid" xml:space="preserve">
     <value>Lcid</value>
@@ -2506,7 +2503,7 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>Retval</value>
   </data>
   <data name="AddDocumentsToolTip" xml:space="preserve">
-    <value>Add Source Code</value>
+    <value>Додати Джерельний Код</value>
   </data>
   <data name="ShortCutKeyCtrlO" xml:space="preserve">
     <value>Ctrl+O</value>
@@ -2518,18 +2515,18 @@ Most options will be re-initialized when this checkbox is clicked</value>
     <value>Ctrl+Shift+O</value>
   </data>
   <data name="EditCodeAddClassMembers" xml:space="preserve">
-    <value>Add Class Members</value>
+    <value>Додати члени класу</value>
   </data>
   <data name="EditCodeAddClassMembers2" xml:space="preserve">
-    <value>Add Class Members ({0})...</value>
+    <value>Додати члени класу ({0})...</value>
   </data>
   <data name="SaveModule_PreserveOtherMetadataStreams" xml:space="preserve">
-    <value>Copy Unkno_wn Metadata Streams</value>
+    <value>Копіювати невідо_мі потоки метаданих</value>
   </data>
   <data name="RerunNgenIfGacAssembly" xml:space="preserve">
-    <value>Run NGEN.exe if this assembly is installed in the GAC</value>
+    <value>Запустити NGEN.exe, якщо ця збірка інстальована в GAC</value>
   </data>
   <data name="CompilerDlgTabTitle" xml:space="preserve">
-    <value>Compiler</value>
+    <value>Компілятор</value>
   </data>
 </root>

@@ -175,7 +175,7 @@
     <value>Überschreibt</value>
   </data>
   <data name="Plugin_ShortDescription" xml:space="preserve">
-    <value>Analysiert Assemblys</value>
+    <value>Analysiert Assemblies</value>
   </data>
   <data name="PropertyGetterTreeNode" xml:space="preserve">
     <value>holen</value>
