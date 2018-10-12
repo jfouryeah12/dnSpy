@@ -19,18 +19,23 @@
 
 using System.Collections.Generic;
 using System.ComponentModel.Composition;
+using dnSpy.Contracts.Disassembly.Viewer;
 using dnSpy.Contracts.Settings.Dialog;
 
 namespace dnSpy.Disassembly.Viewer {
 	[Export(typeof(IAppSettingsPageProvider))]
 	sealed class DisassemblySettingsPageProvider : IAppSettingsPageProvider {
+		readonly DisassemblyViewerService disassemblyViewerService;
 		readonly DisassemblyContentSettingsImpl disassemblySettings;
 
 		[ImportingConstructor]
-		DisassemblySettingsPageProvider(DisassemblyContentSettingsImpl disassemblySettings) => this.disassemblySettings = disassemblySettings;
+		DisassemblySettingsPageProvider(DisassemblyViewerService disassemblyViewerService, DisassemblyContentSettingsImpl disassemblySettings) {
+			this.disassemblyViewerService = disassemblyViewerService;
+			this.disassemblySettings = disassemblySettings;
+		}
 
 		public IEnumerable<AppSettingsPage> Create() {
-			yield return new DisassemblyAppSettingsPage(disassemblySettings);
+			yield return new DisassemblyAppSettingsPage(disassemblyViewerService.Settings, disassemblySettings);
 		}
 	}
 }
