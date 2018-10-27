@@ -20,7 +20,7 @@
 using dnSpy.Contracts.Images;
 using Microsoft.VisualStudio.Language.Intellisense;
 
-namespace dnSpy.Contracts.DnSpy.Language.Intellisense {
+namespace dnSpy.Contracts.Language.Intellisense {
 	/// <summary>
 	/// Completion icon
 	/// </summary>
