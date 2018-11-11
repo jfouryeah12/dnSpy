@@ -19,7 +19,6 @@
 
 using System.ComponentModel.Composition;
 using System.Diagnostics;
-using System.Linq;
 using dnSpy.Contracts.Debugger;
 using dnSpy.Contracts.Debugger.AntiAntiDebug;
 using dnSpy.Contracts.Debugger.DotNet.CorDebug;
@@ -38,26 +37,15 @@ namespace dnSpy.Debugger.DotNet.CorDebug.AntiAntiDebug {
 		[ImportingConstructor]
 		IsDebuggerPresentHook(DebuggerSettings debuggerSettings) => this.debuggerSettings = debuggerSettings;
 
-		static bool TryGetInternalRuntime(DbgProcess process, out DbgCorDebugInternalRuntime runtime) {
-			runtime = null;
-			var dbgRuntime = process.Runtimes.FirstOrDefault();
-			Debug.Assert(dbgRuntime != null);
-			if (dbgRuntime == null)
-				return false;
-
-			runtime = dbgRuntime.InternalRuntime as DbgCorDebugInternalRuntime;
-			return runtime != null;
-		}
-
 		public bool IsEnabled(DbgNativeFunctionHookContext context) {
 			if (!debuggerSettings.AntiIsDebuggerPresent)
 				return false;
 
-			return TryGetInternalRuntime(context.Process, out _);
+			return CorDebugUtils.TryGetInternalRuntime(context.Process, out _);
 		}
 
 		public void Hook(DbgNativeFunctionHookContext context, out string errorMessage) {
-			if (!TryGetInternalRuntime(context.Process, out var runtime)) {
+			if (!CorDebugUtils.TryGetInternalRuntime(context.Process, out var runtime)) {
 				errorMessage = "Couldn't find CorDebug runtime";
 				return;
 			}
