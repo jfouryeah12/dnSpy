@@ -313,13 +313,13 @@
     <value>_Допомога</value>
   </data>
   <data name="Menu_Themes" xml:space="preserve">
-    <value>Тема</value>
+    <value>_Тема</value>
   </data>
   <data name="Menu_View" xml:space="preserve">
     <value>Вигляд</value>
   </data>
   <data name="Menu_Windows" xml:space="preserve">
-    <value>Вікно</value>
+    <value>_Вікно</value>
   </data>
   <data name="MergeAllTabGroupsCommand" xml:space="preserve">
     <value>Об'єднати усі груи вкладок</value>
@@ -355,7 +355,7 @@
     <value>_Перемістити</value>
   </data>
   <data name="MoveToolWindowGroupCommand" xml:space="preserve">
-    <value>Перемістити Групу</value>
+    <value>Перемістити _Групу</value>
   </data>
   <data name="MoveTopCommand" xml:space="preserve">
     <value>_Вверх</value>
@@ -376,7 +376,7 @@
     <value>Нова _горизонтальна група вкладок</value>
   </data>
   <data name="NewTabCommand" xml:space="preserve">
-    <value>Нова Вкладка</value>
+    <value>Нова _Вкладка</value>
   </data>
   <data name="NewVerticalTabGroupCommand" xml:space="preserve">
     <value>Новая _вертикальна група вкладок</value>
@@ -439,7 +439,7 @@
     <value>Ctrl+O</value>
   </data>
   <data name="OpenListCommand" xml:space="preserve">
-    <value>Відкрити список</value>
+    <value>Відкрити сп_исок...</value>
   </data>
   <data name="OpenList_AskForName" xml:space="preserve">
     <value>_Назва</value>
@@ -454,19 +454,19 @@
     <value>Ім'я</value>
   </data>
   <data name="OpenList_New_Button" xml:space="preserve">
-    <value>Новий</value>
+    <value>_Новий...</value>
   </data>
   <data name="OpenList_Open_Button" xml:space="preserve">
-    <value>Відкрити</value>
+    <value>_Відкрити</value>
   </data>
   <data name="OpenList_Remove_Button" xml:space="preserve">
     <value>_Видалити</value>
   </data>
   <data name="OpenList_SavedLists_CheckBox" xml:space="preserve">
-    <value>Збережені списки</value>
+    <value>Зб_ережені списки</value>
   </data>
   <data name="OpenList_Search_Label" xml:space="preserve">
-    <value>Пошук</value>
+    <value>_Пошук</value>
   </data>
   <data name="OpenList_Title" xml:space="preserve">
     <value>Відкрити список</value>
@@ -487,7 +487,7 @@
     <value>Посилання</value>
   </data>
   <data name="ReloadAsmsCommand" xml:space="preserve">
-    <value>Перевантажити усі збірки</value>
+    <value>_Перевантажити Усі Збірки</value>
   </data>
   <data name="ResourcesFolder" xml:space="preserve">
     <value>Ресурси</value>
@@ -502,7 +502,7 @@
     <value>Пошук зупинений, знайдено більше {0:n0} результатів.</value>
   </data>
   <data name="SearchAssembliesCommand" xml:space="preserve">
-    <value>Шукати в збірках</value>
+    <value>_Шукати в збірках</value>
   </data>
   <data name="SearchAssembliesToolBarToolTip" xml:space="preserve">
     <value>Шукати в збірках</value>
@@ -520,7 +520,7 @@
     <value>Шукати:</value>
   </data>
   <data name="ShowCodeCommand" xml:space="preserve">
-    <value>Код</value>
+    <value>_Код</value>
   </data>
   <data name="ShowCodeKey" xml:space="preserve">
     <value>Ctrl+Alt+0</value>
@@ -532,10 +532,10 @@
     <value>Підсвітка синтаксису</value>
   </data>
   <data name="TabsDlg_Activate_Button" xml:space="preserve">
-    <value>Активувати</value>
+    <value>_Активувати</value>
   </data>
   <data name="TabsDlg_CloseWindow_Button" xml:space="preserve">
-    <value>Закрити вікно</value>
+    <value>_Закрити вікно</value>
   </data>
   <data name="TabsDlg_Module_Column" xml:space="preserve">
     <value>Модуль</value>
@@ -562,7 +562,7 @@
     <value>Вікна...</value>
   </data>
   <data name="WordWrapHeader" xml:space="preserve">
-    <value>Перенесення слів</value>
+    <value>_Перенесення Слів</value>
   </data>
   <data name="CloseTabButtonToolTip" xml:space="preserve">
     <value>Закрити</value>
@@ -589,7 +589,7 @@
     <value>Показати токени метаданих</value>
   </data>
   <data name="OptionsCommand" xml:space="preserve">
-    <value>Налаштування...</value>
+    <value>_Налаштування...</value>
   </data>
   <data name="SearchWindow_AllAbove" xml:space="preserve">
     <value>Все можливе</value>
@@ -718,16 +718,16 @@
     <value>Позиція вікна</value>
   </data>
   <data name="Theme_Blue" xml:space="preserve">
-    <value>Голубий</value>
+    <value>_Голубий</value>
   </data>
   <data name="Theme_Dark" xml:space="preserve">
-    <value>Темний</value>
+    <value>_Темний</value>
   </data>
   <data name="Theme_HighContrast" xml:space="preserve">
-    <value>Висока контрастність</value>
+    <value>_Висока контрастність</value>
   </data>
   <data name="Theme_Light" xml:space="preserve">
-    <value>Світла</value>
+    <value>_Світла</value>
   </data>
   <data name="OpenGAC_Search_ToolTip" xml:space="preserve">
     <value>Пошук</value>
@@ -745,7 +745,7 @@
     <value>Ctrl+Shift+O</value>
   </data>
   <data name="SortAsmsCommand" xml:space="preserve">
-    <value>Сортувати Збірки</value>
+    <value>С_ортувати Збірки</value>
   </data>
   <data name="AskReadSettings" xml:space="preserve">
     <value>Чи ви хочете завантажити збережені налаштування?</value>
@@ -763,7 +763,7 @@
     <value>Не вказаний вихідний каталог.</value>
   </data>
   <data name="ExportToProject_Button_Export" xml:space="preserve">
-    <value>Експорт</value>
+    <value>_Експорт</value>
   </data>
   <data name="ExportToProject_CreateResX" xml:space="preserve">
     <value>Створити файли .res_x</value>
@@ -781,7 +781,7 @@
     <value>Буде декомпільовано {0:n0} файлів.</value>
   </data>
   <data name="ExportToProject_Language" xml:space="preserve">
-    <value>Мова</value>
+    <value>_Мова</value>
   </data>
   <data name="ExportToProject_OpenProjectInVisualStudio" xml:space="preserve">
     <value>_Відкрити проект в Visual Studio</value>
@@ -799,7 +799,7 @@
     <value>Відсутнє ім'я файлу</value>
   </data>
   <data name="Button_Close" xml:space="preserve">
-    <value>Закрити</value>
+    <value>_Закрити</value>
   </data>
   <data name="ErrorExceptionOccurred" xml:space="preserve">
     <value>Трапилось  виключення {0}</value>
@@ -883,7 +883,7 @@
     <value>Alt+2</value>
   </data>
   <data name="Window_Output2" xml:space="preserve">
-    <value>Вив_ід</value>
+    <value>_Вивід</value>
   </data>
   <data name="Output_Save_ToolTip" xml:space="preserve">
     <value>Зберегти</value>
@@ -1114,16 +1114,16 @@
     <value>Перетворити табулятори в _прогалини</value>
   </data>
   <data name="TextEditorLineNumbers" xml:space="preserve">
-    <value>Номери стрічок</value>
+    <value>_Номери стрічок</value>
   </data>
   <data name="TextEditorVirtualSpace" xml:space="preserve">
-    <value>Виртуальна прогалина</value>
+    <value>_Віртуальна прогалина</value>
   </data>
   <data name="TextEditorWordWrap" xml:space="preserve">
-    <value>Переніс слів</value>
+    <value>_Переніс слів</value>
   </data>
   <data name="TextEditorIndentSize" xml:space="preserve">
-    <value>Розмір відступу</value>
+    <value>Розмір _відступу</value>
   </data>
   <data name="TextEditorTabSize" xml:space="preserve">
     <value>Розмір _табулятора</value>
@@ -1258,7 +1258,7 @@
     <value>Показати разділювачі стовпців</value>
   </data>
   <data name="GoToOffset_Offset_Label" xml:space="preserve">
-    <value>Офсет</value>
+    <value>О_фсет</value>
   </data>
   <data name="GoToOffset_Title" xml:space="preserve">
     <value>Перехід по зміщенню</value>
@@ -1362,7 +1362,7 @@
     <value>_Розтягнути по ширині</value>
   </data>
   <data name="LocalHexSettings_BaseOffset" xml:space="preserve">
-    <value>_Базове зміщення</value>
+    <value>_Базове Зміщення</value>
   </data>
   <data name="LocalHexSettings_BaseOffset_ToolTip" xml:space="preserve">
     <value>Це значення додається до початкового зміщення, перед показом на екрані</value>
@@ -1594,7 +1594,7 @@
     <value>Ctrl+6</value>
   </data>
   <data name="GoToMetadataCommand" xml:space="preserve">
-    <value>Перейти до метаданих...</value>
+    <value>Перейти до Метаданих...</value>
   </data>
   <data name="ShortCutKeyCtrlM" xml:space="preserve">
     <value>Ctrl+M</value>
