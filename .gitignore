@@ -11,3 +11,4 @@ launchSettings.json
 
 
 .gitignore
+dist/
