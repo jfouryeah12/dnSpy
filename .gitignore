@@ -7,5 +7,4 @@ _ReSharper*/
 *_wpftmp.csproj
 launchSettings.json
 .idea/
-.gitignore
 dist/
